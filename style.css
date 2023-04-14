@@ -1,11 +1,11 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100%;
 }
 
-html, body{
+html{
     scroll-behavior: smooth;
 }
 
@@ -42,8 +42,6 @@ span#header-name{
     font-size: 20pt;
     font-family: 'Bebas Neue', cursive;
     color: #ffffff;
-    /*height: 40px;
-    width: 40px;*/
 }
 ul{
     margin-right: 30px;
@@ -71,18 +69,41 @@ a:hover{
 }
 
 section{
-    position: flex;
+    display: flex;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 section#secHome{
     background-image: url(/images/sec_home.svg);
     background-position: bottom;
-    display: flex;
 }
 div.home{
-    
+    position: relative;
+    padding-left: 250px;
+    padding-top: 250px;
 }
+div.home span{
+    font-size: 50pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+div.home p{
+    font-size: 13ch;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 750;
+    color: #ec6d6d;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: escrevendo 2s steps(13) infinite step-end alternate;
+}
+@keyframes escrevendo{
+    from {
+        width: 0;
+    }
+}
+
 
 section#secAbout{
     background-image: url(/images/sec_about.svg);
