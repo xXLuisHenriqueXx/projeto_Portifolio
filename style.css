@@ -1,4 +1,4 @@
-*{
+body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -66,11 +66,12 @@ a:visited{
 }
 a:hover{
     color: #635985;
-}
+}  
 
 section{
     display: flex;
     height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,32 +79,48 @@ section#secHome{
     background-image: url(/images/sec_home.svg);
     background-position: bottom;
 }
-div.home{
-    position: relative;
-    padding-left: 250px;
-    padding-top: 250px;
+div#text_home{
+    margin: 200px 0px 0px 200px;
 }
-div.home span{
+div#text_home span{
+    margin: 0;
+    padding: 0;
     font-size: 50pt;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: #ffffff;
 }
-div.home p{
+p#text_home_nome{
+    margin: 0;
+    padding: 0;
     font-size: 13ch;
     font-family: 'Bebas Neue', cursive;
     font-weight: 750;
     color: #ec6d6d;
     white-space: nowrap;
     overflow: hidden;
-    animation: escrevendo 2s steps(13) infinite step-end alternate;
+    border-right: 8px dashed rgba(255, 255, 255);
+    animation: escrevendo 3s infinite alternate;
 }
 @keyframes escrevendo{
     from {
         width: 0;
     }
+    to {
+        width: 13ch;
+    }
 }
 
+div#foto_home{
+    margin: 200px 0px 0px 200px;
+}
+div#foto_home img{
+    margin: 0;
+    background-image: url(/images/shape_foto_home.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 section#secAbout{
     background-image: url(/images/sec_about.svg);
