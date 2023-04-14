@@ -20,7 +20,7 @@ html::-webkit-scrollbar-thumb{
 
  
 body{
-    background-color: rgb(39, 39, 39);
+    background-color: #18122B;
 }
 
 nav{
@@ -30,14 +30,16 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 5px;
-    background-Color: rgb(28, 31, 44);
-    box-shadow: 0 0 20px 10px rgb(27, 27, 32);
+    background-Color: #18122b00;
 }
 
-img#picNav{
+span#header-name{
     margin-left: 30px;
-    height: 40px;
-    width: 40px;
+    font-size: 20pt;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    /*height: 40px;
+    width: 40px;*/
 }
 ul{
     margin-right: 30px;
@@ -50,110 +52,16 @@ ul li{
 ul li a{
     padding: 20px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    opacity: 65%;
+    opacity: 100%;
     color: rgb(255, 255, 255);
-    transition: all .5s;
+    transition: color .3s;
 }
 
 a:visited{
     text-decoration: none;
 }
-
-div.links{
-    height: 100%;
-}
-
 a:hover{
-    text-decoration: none;
-    opacity: 1;
-}
-
-section{
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-}
-
-section#secHome{
-    align-items: center;
-    justify-content: space-between;
-}
-
-div.backTextH, div.picHome{
-    margin: 40px;
-}
-
-div.backTextH{
-    padding: 45px;
-    outline: 3px dotted rgb(26, 39, 44);
-    background-color: rgb(139, 147, 150);
-    box-shadow: 25px 20px rgb(26, 39, 44);
-}
-
-h1{
-    font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: rgb(26, 39, 44);
-}
-
-span{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-}
-
-img#picHome{
-    width: 400px;
-    height: auto;
-}
-
-section#secAbout{
-    justify-content: space-between;
-}
-
-div.textAboutInt, div.textAboutSkills{
-    width: 45%;
-    height: 100%;
-}
-
-div.textAboutInt{
-    margin-left: 30px;
-}
-
-div.textAboutInt1{
-    padding-top: 80px;
-}
-
-div.textAboutInt2{
-    padding-top: 150px;
-}
-
-div.textAboutSkills{
-    padding-top: 240px;
-    margin-right: 30px;
-}
-
-p{
-    text-indent: 20px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p#textSkill{
-    text-indent: 40px;
-}
-
-legend{
-    font-size: 20px;
-    font-family: Arial;
-}
-
-fieldset{
-    padding: 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(139, 147, 150);
-    box-shadow: 15px 15px rgb(26, 39, 44);
+    color: #635985;
 }
