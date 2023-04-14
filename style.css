@@ -2,23 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 html{
     scroll-behavior: smooth;
 }
+
 html::-webkit-scrollbar{
-    width: 15px;
+    width: 10px;
 }
 html::-webkit-scrollbar-track{
-    background-color: rgb(28, 31, 44);
+    background-color: #18122B;
 }
 html::-webkit-scrollbar-thumb{
     background-color: #ffffff;
     border-radius: 20px;
 }
+html::-webkit-scrollbar-thumb:hover{
+    background-color: #635985;
+}
 
- 
 body{
     background-color: #18122B;
 }
@@ -64,4 +68,25 @@ a:visited{
 }
 a:hover{
     color: #635985;
+}
+
+section{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#secHome{
+    background-image: url(/images/sec_home.svg);
+    background-position: bottom;
+}
+section#secAbout{
+    background-image: url(/images/sec_about.svg);
+    background-position: top;
+}
+section#secProjects{
+    background-image: url(/images/sec_contato.svg);
+    background-position: bottom;
+}
+section#secContacts{
+    background-image: url(/images/sec_project.svg);
+    background-position: top;
 }
