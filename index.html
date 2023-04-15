@@ -13,23 +13,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <div class="nomeNav">
-            <span id="header-name">Luis Henrique</span>
-        </div>
+    <header>
+        <nav>
+            <div class="nomeNav">
+                <span id="header-name">Luis Henrique</span>
+            </div>
         
-        <div class="linksNav">  
-            <ul>
-                <li><a href="#secHome">Início</a></li>
-                <li><a href="#secAbout">Sobre mim</a></li>
-                <li><a href="#secProjects">Projetos</a></li>
-                <li><a href="#secContacts">Contatos</a></li>
-            </ul>  
-        </div>
-    </nav>
+            <div class="linksNav">
+                <ul>
+                    <li><a href="#secHome">Início</a></li>
+                    <li><a href="#secAbout">Sobre mim</a></li>
+                    <li><a href="#secProjects">Projetos</a></li>
+                    <li><a href="#secContacts">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
     <main class="section_container">
         <section id="secHome">
@@ -39,12 +43,17 @@
                 <span>e sou Desenvolvedor Web</span>
             </div>
             <div class="home" id="foto_home">
-                <img src="/images/userIcon.png" width="600px" height="auto">
+                <img src="/images/userIcon.png" width="600px">
             </div>
         </section>
         
         <section id="secAbout">
-            <div>
+            <div class="about" id="text_about">
+                <p>Me chamo <span id="letra_diferente">Luis Henrique Cardoso</span> e sou programador iniciante.</p>
+                <p>Realizei meu ensino médio com técnico em informática integrado, no <span id="letra_diferente">Instituto Federal Farroupilha</span>, onde iniciou minha paixão pelo mundo da programação.</p>
+                <p>No momento estou cursando Sistemas de informação na <span id="letra_diferente">Universidade Federal de Santa Maria</span></p>
+            </div>
+            <div class="about" id="compet_about">
                 
             </div>
         </section>
@@ -63,6 +72,11 @@
         </section>
     </main>
 
+    <footer>
+        <div id="informFooter">
+            <p>Copyright &copy; 2023 <br> Luis Henrique Cardoso</p>
+        </div>
+    </footer>
     <script type="text/javascript" src="index.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </body>

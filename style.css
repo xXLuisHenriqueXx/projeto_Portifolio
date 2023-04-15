@@ -27,9 +27,11 @@ body{
     background-color: #18122B;
 }
 
+/* Estilização da barra de navegação*/
 nav{
     position: fixed;
     display: flex;
+    z-index: 1;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -68,6 +70,8 @@ a:hover{
     color: #635985;
 }  
 
+
+/* Estilização das seções*/
 section{
     display: flex;
     height: 100vh;
@@ -75,6 +79,8 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Seção Home*/
 section#secHome{
     background-image: url(/images/sec_home.svg);
     background-position: bottom;
@@ -115,22 +121,64 @@ div#foto_home{
     margin: 200px 0px 0px 200px;
 }
 div#foto_home img{
-    margin: 0;
+    margin: 0; 
     background-image: url(/images/shape_foto_home.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: flutuando 2s infinite;
+}
+@keyframes flutuando {
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(25px);
+    }
 }
 
+/* Seção Sobre*/
 section#secAbout{
     background-image: url(/images/sec_about.svg);
     background-position: top;
 }
+div#text_about{
+    margin: 200px 0px 0px 150px;
+    width: 700px;
+    height: 700px;
+}
+div#text_about p{
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    font-size: 18pt;
+    text-indent: 30pt;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+div#text_about span#letra_diferente{
+    color: #ec3c3c;
+    font-family: 'DynaPuff', cursive;
+}
+
+/* Seção Projetos*/
 section#secProjects{
     background-image: url(/images/sec_contato.svg);
     background-position: bottom;
 }
+
+/* Seção Contatos*/
 section#secContacts{
     background-image: url(/images/sec_project.svg);
     background-position: top;
+}
+
+/* Estilização do Footer*/
+footer{
+    width: 100%;
+    text-align: center;
+}
+div#informFooter p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 10pt;
 }
