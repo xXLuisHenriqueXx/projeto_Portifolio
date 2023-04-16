@@ -241,9 +241,17 @@ div.card{
     justify-content: center;
     align-items: center;
     background-color: #6955ac8c;
+    border-radius: 50px;
+    filter: drop-shadow(0px 30px 20px #934eec);
 }
+div.card:hover{
+    animation: aumentar 2s infinite;
+    filter: brightness(150%) drop-shadow(0px 30px 20px #934eec);
+}
+
 div.card img{
     width: 300px;
+    filter: brightness(100);
 }
 
 div#footer_projects{
