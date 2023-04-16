@@ -126,14 +126,15 @@ div#foto_home img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: flutuando 2s infinite;
+    filter: drop-shadow(20px 30px 20px #b62374);
+    animation: flutuando 2s infinite; 
 }
 @keyframes flutuando {
     0%, 100%{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(25px);
+        transform: translateY(10px);
     }
 }
 
@@ -143,9 +144,13 @@ section#secAbout{
     background-position: top;
 }
 div#text_about{
+    background-color: #6955ac8c;
+    filter: drop-shadow(10px 10px 20px #934eec);
+    border-radius: 10px;
+    padding: 30px;
     margin: 200px 0px 0px 150px;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 220px;
 }
 div#text_about p{
     margin: 0px 0px 8px 0px;
@@ -156,8 +161,50 @@ div#text_about p{
     color: #ffffff;
 }
 div#text_about span#letra_diferente{
-    color: #ec3c3c;
-    font-family: 'DynaPuff', cursive;
+    color: #941434;
+    /*font-family: 'DynaPuff', cursive;*/
+    font-size: 20pt;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+
+div#compet_about{
+    margin: 450px 0px 0px 200px;
+    background-color: #6955ac8c;
+    filter: drop-shadow(-10px 10px 20px #934eec);
+    border-radius: 10px;
+    padding: 30px;
+    width: 650px;
+    height: 350px;
+}
+div#compet_about p{
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    font-size: 18pt;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+div#icones img{
+    background-color: #18122b33;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: filter .5s;
+}
+div#icones img:hover{
+    filter: none;
+    animation: aumentar 1.5s ease-in-out infinite;
+}
+@keyframes aumentar{
+    0%, 100%{
+        transform: scale(0px);
+    }
+    50%{
+        transform: scale(1.05);
+    }
 }
 
 /* Seção Projetos*/
