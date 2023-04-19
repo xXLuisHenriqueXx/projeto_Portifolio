@@ -48,7 +48,6 @@ span#header-name{
 ul{
     display: flex;
     margin-right: 30px;
-    align-items: center;
 }
 
 ul li{
