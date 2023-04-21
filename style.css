@@ -255,188 +255,188 @@ div#informFooter p{
 @media (min-width: 768px){
     /* Seção home */
     div#text_home{
-        margin: 100px 0px 0px 100px;
+        margin: 10rem 0 0 8.25rem;
     }
     div#text_home span{
         margin: 0;
         padding: 0;
-        font-size: 20pt;
+        font-size: 3.25rem;
     }
     p#text_home_nome{
         margin: 0;
         padding: 0;
-        font-size: 13ch;
+        font-size: 5.5rem;
     }
     div#foto_home{
-        margin: 200px 0px 0px 1150px;
+        margin: 10rem 0 0 49.725rem;
     }
     div#foto_home img{
         margin: 0; 
-        width: 600px;
+        width: 28.2rem;
     }
 
     /* Seção sobre */
     div#text_about{
-        border-radius: 40px;
-        padding: 30px;
-        margin: 200px 0px 0px 150px;
-        width: 650px;
-        height: 220px;
+        border-radius: 30px;
+        padding: 1.875rem;
+        margin: 10rem 0 0 8.25rem;
+        width: 40.625rem;
+        height: 11.65rem;
     }
     div#text_about p{
-        margin: 0px 0px 8px 0px;
+        margin: 0 0 0.25rem 0;
         padding: 0;
-        font-size: 18pt;
-        text-indent: 30pt;
+        font-size: 1.25rem;
+        text-indent: 1.8rem;
     }
     div#text_about span#letra_diferente{
-        font-size: 20pt; 
+        font-size: 1.3rem; 
     }
     div#compet_about{
-        margin: 450px 0px 0px 200px;
+        margin: 28.125rem 0 0 12.5rem;
         border-radius: 30px;
-        padding: 40px;
-        width: 650px;
-        height: 350px;
+        padding: 2.5rem;
+        width: 40.625rem;
+        height: 21.875rem;
     }
     div#compet_about p{
-        margin: 0px 0px 8px 0px;
+        margin: 0px 0px 0.5rem 0px;
         padding: 0;
-        font-size: 18pt;
+        font-size: 1.563rem;
     }
     div#icones img{
-        width: 100px;
+        width: 6.75rem;
         border-radius: 10px;
-        padding: 20px;
-        margin: 10px;
+        padding: 1.25rem;
+        margin: 0.625rem;
     }
 
     /* Seção projetos */
     div#text_projects{
-        height: 100px;
-        margin-top: 200px;
+        height: 6.75rem;
+        margin-top:12.5rem;
     }
     div#text_projects p{
         padding: 0;
-        font-size: 25pt;
+        font-size: 2.188rem;
     }
     div#cards_projects{
-        margin: 250px 0px 0px 0px;
-        height: 600px;
+        margin: 15.625rem 0 0 0;
+        height: 37.5rem;
     }
     div.card{
-        margin: 30px;
-        width: 500px;
-        height: 400px;
+        margin: 1.875rem;
+        width: 31.25rem;
+        height: 25rem;
         border-radius: 50px;
     }
     div.card img{
-        width: 300px;
+        width: 18.75rem;
     }
-    div#fotter_projects{
-        margin-top: 780px;
+    div#footer_projects{
+        margin-top: 48.75rem;
     }
     div#footer_projects p{
-        font-size: 15pt;
+        font-size: 1.25rem;
     }
     
     /* Footer */
     div#informFooter{
-        font-size: 10pt;
+        font-size: 0.938rem;
     }
 }
 
 /* Estilização de tamanhos para DeskTop */
-@media (min-width: 1024px){
+@media (min-width: 1367px){
     /* Seção home */
     div#text_home{
-        margin: 200px 0px 0px 200px;
+        margin: 12.5rem 0 0 12.5rem;
     }
     div#text_home span{
         margin: 0;
         padding: 0;
-        font-size: 50pt;
+        font-size: 4.375rem;
     }
     p#text_home_nome{
         margin: 0;
         padding: 0;
-        font-size: 13ch;
+        font-size: 7.5rem;
     }
     div#foto_home{
-        margin: 200px 0px 0px 1150px;
+        margin: 12.5rem 0 0 71.875rem;
     }
     div#foto_home img{
         margin: 0; 
-        width: 600px;
+        width: 37.5rem;
     }
 
     /* Seção sobre */
     div#text_about{
         border-radius: 40px;
-        padding: 30px;
-        margin: 200px 0px 0px 150px;
-        width: 650px;
-        height: 220px;
+        padding: 1.875rem;
+        margin: 12.5rem 0 0 9.375rem;
+        width: 40.625rem;
+        height: 13.75rem;
     }
     div#text_about p{
-        margin: 0px 0px 8px 0px;
+        margin: 0 0 0.5rem 0;
         padding: 0;
-        font-size: 18pt;
-        text-indent: 30pt;
+        font-size: 1.563rem;
+        text-indent: 2.375rem;
     }
     div#text_about span#letra_diferente{
-        font-size: 20pt; 
+        font-size: 1.688rem; 
     }
     div#compet_about{
-        margin: 450px 0px 0px 200px;
+        margin: 28.125rem 0 0 12.5rem;
         border-radius: 30px;
-        padding: 40px;
-        width: 650px;
-        height: 350px;
+        padding: 2.5rem;
+        width: 40.625rem;
+        height: 21.875rem;
     }
     div#compet_about p{
-        margin: 0px 0px 8px 0px;
+        margin: 0px 0px 0.5rem 0px;
         padding: 0;
-        font-size: 18pt;
+        font-size: 1.563rem;
     }
     div#icones img{
-        width: 100px;
+        width: 6.75rem;
         border-radius: 10px;
-        padding: 20px;
-        margin: 10px;
+        padding: 1.25rem;
+        margin: 0.625rem;
     }
 
     /* Seção projetos */
     div#text_projects{
-        height: 100px;
-        margin-top: 200px;
+        height: 6.75rem;
+        margin-top:12.5rem;
     }
     div#text_projects p{
         padding: 0;
-        font-size: 25pt;
+        font-size: 2.188rem;
     }
     div#cards_projects{
-        margin: 250px 0px 0px 0px;
-        height: 600px;
+        margin: 15.625rem 0 0 0;
+        height: 37.5rem;
     }
     div.card{
-        margin: 30px;
-        width: 500px;
-        height: 400px;
+        margin: 1.875rem;
+        width: 31.25rem;
+        height: 25rem;
         border-radius: 50px;
     }
     div.card img{
-        width: 300px;
+        width: 18.75rem;
     }
-    div#fotter_projects{
-        margin-top: 780px;
+    div#footer_projects{
+        margin-top: 48.75rem;
     }
     div#footer_projects p{
-        font-size: 15pt;
+        font-size: 1.25rem;
     }
     
     /* Footer */
     div#informFooter{
-        font-size: 10pt;
+        font-size: 0.938rem;
     }
 }
