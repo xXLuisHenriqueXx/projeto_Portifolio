@@ -277,10 +277,10 @@ div#informFooter p{
 
     /* Seção sobre */
     div#text_about{
-        border-radius: 30px;
+        border-radius: 15px;
         padding: 1.875rem;
-        margin: 10rem 0 0 8.25rem;
-        width: 40.625rem;
+        margin: 7rem 0 0 4.25rem;
+        width: 30.625rem;
         height: 11.65rem;
     }
     div#text_about p{
@@ -293,51 +293,51 @@ div#informFooter p{
         font-size: 1.3rem; 
     }
     div#compet_about{
-        margin: 28.125rem 0 0 12.5rem;
-        border-radius: 30px;
-        padding: 2.5rem;
-        width: 40.625rem;
-        height: 21.875rem;
+        margin: 15.125rem 0 0 4.5rem;
+        border-radius: 15px;
+        padding: 1.875rem;
+        width: 34rem;
+        height: 19.65rem;
     }
     div#compet_about p{
         margin: 0px 0px 0.5rem 0px;
         padding: 0;
-        font-size: 1.563rem;
+        font-size: 1.3rem;
     }
     div#icones img{
-        width: 6.75rem;
-        border-radius: 10px;
-        padding: 1.25rem;
+        width: 4.95rem;
+        border-radius: 5px;
+        padding: 0.95rem;
         margin: 0.625rem;
     }
 
     /* Seção projetos */
     div#text_projects{
         height: 6.75rem;
-        margin-top:12.5rem;
+        margin-top: 3.85rem;
     }
     div#text_projects p{
         padding: 0;
-        font-size: 2.188rem;
+        font-size: 1.6rem;
     }
     div#cards_projects{
-        margin: 15.625rem 0 0 0;
-        height: 37.5rem;
+        margin: 6.625rem 0 0 0;
+        height: 30.5rem;
     }
     div.card{
         margin: 1.875rem;
-        width: 31.25rem;
-        height: 25rem;
-        border-radius: 50px;
+        width: 24rem;
+        height: 22rem;
+        border-radius: 30px;
     }
     div.card img{
-        width: 18.75rem;
+        width: 16.8rem;
     }
     div#footer_projects{
-        margin-top: 48.75rem;
+        margin-top: 33.765rem;
     }
     div#footer_projects p{
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
     
     /* Footer */
