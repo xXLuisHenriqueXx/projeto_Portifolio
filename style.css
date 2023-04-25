@@ -274,6 +274,20 @@ div#informFooter p{
         margin: 0; 
         width: 28.2rem;
     }
+    div#contatos{
+        position: absolute;
+        margin: 25rem 0 0 2rem;
+        display: flex;
+    }
+    div#contatos p{
+        font-size: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ffffff;
+    }
+    div#contatos img{
+        
+        width: 2.675rem;
+    }
 
     /* Seção sobre */
     div#text_about{
