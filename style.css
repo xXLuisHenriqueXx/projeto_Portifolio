@@ -128,6 +128,31 @@ div#foto_home img{
         transform: translateY(10px);
     }
 }
+div#contatos{
+    background-color: #420d2a34;
+    box-shadow: .5rem .5rem 1rem .5rem #d1104084;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /*filter: drop-shadow(0.2rem 0.2rem 0.2rem #da1f6d);*/
+}
+div#textContatos p{
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+div#iconsContatos{
+    display: flex;
+    justify-content: space-between;
+}
+div#iconsContatos img{
+    background-color: #18122b52;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: filter .5s;
+}
+div#iconsContatos img:hover{
+    filter: none;
+}
 /* -------------------------------------------------------- */
 
 /* Seção Sobre*/
@@ -231,22 +256,23 @@ div#footer_projects a:hover{
 }
 /* -------------------------------------------------------- */
 
-/* Seção Contatos */
+/* Seção Contatos 
 section#secContacts{
     background-image: url(/images/sec_project.svg);
     background-position: top;
 }
-/* -------------------------------------------------------- */
+-------------------------------------------------------- */
 
 /* Estilização do Footer */
-footer{
+/*footer{
+    background-color: #393053;
     width: 100%;
     text-align: center;
 }
 div#informFooter p{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-}
+}*/
 @media (min-width: 408px){
     
 }
@@ -268,26 +294,26 @@ div#informFooter p{
         font-size: 5.5rem;
     }
     div#foto_home{
-        margin: 10rem 0 0 49.725rem;
+        margin: 9rem 0 0 49.725rem;
     }
     div#foto_home img{
         margin: 0; 
         width: 28.2rem;
     }
     div#contatos{
-        position: absolute;
-        margin: 25rem 0 0 2rem;
-        display: flex;
+        border-radius: 1.875rem;
+        width: 16rem;
+        margin: 30.2rem 0 0 2rem;
+        padding: 0.5rem;
     }
-    div#contatos p{
-        font-size: 1rem;
-        font-family: 'Bebas Neue', cursive;
-        color: #ffffff;
+    div#textContatos p{
+        font-size: 1.2rem;
     }
-    div#contatos img{
-        
+    div#iconsContatos img{
+        margin-right: 1.2rem;
+        padding: 0.5rem;
         width: 2.675rem;
-    }
+    }  
 
     /* Seção sobre */
     div#text_about{
