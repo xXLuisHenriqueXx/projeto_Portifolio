@@ -84,7 +84,7 @@ section{
 
 /* Seção Home*/
 section#secHome{
-    background-image: url(images/sec_home.svg);
+    background-image: url(./images/sec_home.svg);
     background-position: bottom;
 }
 div#text_home span{
@@ -113,7 +113,7 @@ div#foto_home{
     position: absolute;
 }
 div#foto_home img{
-    background-image: url(images/shape_foto_home.svg);
+    background-image: url(./images/shape_foto_home.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ div#iconsContatos img:hover{
 
 /* Seção Sobre*/
 section#secAbout{
-    background-image: url(images/sec_about.svg);
+    background-image: url(./images/sec_about.svg);
     background-position: top;
 }
 div#text_about{
@@ -204,7 +204,7 @@ div#icones img:hover{
 
 /* Seção Projetos*/
 section#secProjects{
-    background-image: url(images/sec_contato.svg);
+    background-image: url(./images/sec_contato.svg);
     background-position: bottom;
 }
 div#text_projects{
